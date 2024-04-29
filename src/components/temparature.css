@@ -1,0 +1,136 @@
+/* Default styles */
+
+.bg-slate-600 {
+    background-color: #1F213A;
+    color: #CBD5E1;
+    padding: 1rem;
+  }
+  
+  .text-slate-200 {
+    color: #CBD5E1;
+  }
+  
+  /* Grid container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  /* Media query for screens smaller than 640px */
+  @media (max-width: 639px) {
+    .bg-slate-600 {
+      padding: 1rem;
+    }
+  
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  /* Media query for screens between 640px and 767px */
+  @media (min-width: 640px) and (max-width: 767px) {
+    .bg-slate-600 {
+      padding: 1.5rem;
+    }
+  }
+  
+  /* Media query for screens between 768px and 1023px */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .bg-slate-600 {
+      padding: 2rem;
+    }
+  }
+  
+  /* Media query for screens larger than or equal to 1024px */
+  @media (min-width: 1024px) {
+    .bg-slate-600 {
+      padding: 2.5rem;
+    }
+  }
+  /* Default styles */
+.bg-slate-600 {
+  background-color: #1F213A;
+  color: #CBD5E1;
+  padding: 1rem;
+}
+
+.text-slate-200 {
+  color: #CBD5E1;
+}
+
+/* Grid container */
+.grid-container {
+  background-color: #1F213A;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 639px) {
+  .bg-slate-600 {
+    padding: 0.5rem;
+  }
+  
+  .textsm {
+    font-size: 14px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .bg-slate-600 {
+    padding: 1rem;
+  }
+
+  .textsm {
+    font-size: 16px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 929px) {
+  .bg-slate-600 {
+    padding: 1.5rem;
+  }
+
+  .textsm {
+    font-size: 18px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 930px) and (max-width: 1023px) {
+  .bg-slate-600 {
+    padding: 2rem;
+  }
+
+  .textsm {
+    font-size: 18px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg-slate-600 {
+    padding: 2.5rem;
+  }
+
+  .textsm {
+    font-size: 20px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
